@@ -1,8 +1,8 @@
 import express from "express";
-
-console.log("esto es una prueba");
 //1 confifuraciones iniciales
-
+const app = express();
+//crear una variable
+app.set("port", process.env.PORT || 4000);
 //2 middlewares
 
 //3 crear las rutas
